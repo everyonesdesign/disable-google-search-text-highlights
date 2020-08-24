@@ -1,5 +1,5 @@
 {
-  "name": "Disable Text Highlights from Google Search Results",
+  "name": "Disable Google Search Text Highlights",
   "version": "0.0.2",
   "manifest_version": 2,
   "description": "This minimalistic extension disables \"Scroll to Text Fragment\" feature in Google search results",
