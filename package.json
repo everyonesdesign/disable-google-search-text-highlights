@@ -1,0 +1,10 @@
+{
+  "name": "disable-text-highlights-from-google-search-results",
+  "version": "0.0.1",
+  "description": "This minimalistic extension disables \"Scroll to Text Fragment\" feature in Google search results",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "pack": "rm app.zip; cd app && zip -r ../app.zip *"
+  }
+}
