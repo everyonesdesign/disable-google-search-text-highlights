@@ -22,3 +22,10 @@ However, currently it seems to be impossible to do so.
 
 As a consequence, this extension changes all the links on
 Google-hosted pages, removing the part responsible for text highlighting.
+
+### What Google domains does this extension run on?
+
+This extension runs only on Google Search domains
+
+[This list](https://www.google.com/supported_domains)
+has been used as a source of Google Search domains for this extension
