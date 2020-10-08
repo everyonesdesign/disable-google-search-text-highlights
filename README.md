@@ -1,5 +1,7 @@
 # Disable Text Highlights from Google Search Results
 
+[![Build Status](https://travis-ci.com/everyonesdesign/disable-google-search-text-highlights.svg?branch=master)](https://travis-ci.com/everyonesdesign/disable-google-search-text-highlights)
+
 Google Chrome introduced a feature highlighting relevant text snippet
 by relying on the new
 [Scroll to Text Fragment](https://chromestatus.com/feature/4733392803332096) API.
