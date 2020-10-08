@@ -5,7 +5,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "pack": "rm app.zip; cd app && zip -r ../app.zip *"
+    "pack": "rm app.zip; cd app && zip -r ../app.zip *",
+    "test": "node ./test"
   },
   "devDependencies": {
     "node-fetch": "^2.6.1"
