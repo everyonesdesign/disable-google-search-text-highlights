@@ -8,6 +8,7 @@ try {
       const [ hash, fragmentDirectivesString ] = url.hash.split(FRAGMENT_DIRECTIVE_SEPARATOR);
 
       const fragmentDirectives = new URLSearchParams(fragmentDirectivesString);
+
       fragmentDirectives.delete(TEXT_HIGHLIGHT_DIRECTIVE_ID);
       const newFragmentDirectivesString = fragmentDirectives.toString();
 
@@ -15,7 +16,13 @@ try {
         `${hash}${FRAGMENT_DIRECTIVE_SEPARATOR}${newFragmentDirectivesString}` :
         hash;
 
-      link.href = url.href;
+      // remove trailing hash
+      let newHref = url.href;
+      if (/^[^#]+#$/.test(newHref)) {
+        newHref = newHref.slice(0, -1);
+      }
+
+      link.href = newHref;
     }
   });
 } catch(e) {}
