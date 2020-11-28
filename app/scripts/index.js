@@ -9,6 +9,10 @@ try {
 
       const fragmentDirectives = new URLSearchParams(fragmentDirectivesString);
 
+      if (fragmentDirectives.get(TEXT_HIGHLIGHT_DIRECTIVE_ID) === null) {
+        return;
+      }
+
       fragmentDirectives.delete(TEXT_HIGHLIGHT_DIRECTIVE_ID);
       const newFragmentDirectivesString = fragmentDirectives.toString();
 
