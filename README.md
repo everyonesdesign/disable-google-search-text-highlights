@@ -1,6 +1,7 @@
 # Disable Text Highlights from Google Search Results
 
-![Build Status](https://github.com/everyonesdesign/disable-google-search-text-highlights/actions/workflows/test.yml/badge.svg)
+[![Build Status](https://github.com/everyonesdesign/disable-google-search-text-highlights/actions/workflows/test.yml/badge.svg)
+](https://github.com/everyonesdesign/disable-google-search-text-highlights/actions)
 
 [ [Chrome Web Store](https://chrome.google.com/webstore/detail/disable-google-search-tex/ompocnnmgiaoieoanemepjflbokldhom) ]
 [ [☕ Buy me a coffee](https://buymeacoff.ee/everyonesdesign) ]
