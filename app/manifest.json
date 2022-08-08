@@ -206,6 +206,7 @@
         "https://www.google.co.zw/search?*",
         "https://www.google.cat/search?*"
       ],
+      "run_at": "document_start",
       "js": [
         "scripts/index.js"
       ]
