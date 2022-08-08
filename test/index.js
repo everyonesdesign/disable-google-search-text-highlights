@@ -31,14 +31,16 @@ HASH_COMBINATIONS.forEach(hc => {
   });
 });
 
-const links = variants.map(v => ({ href: v }));
 global.document = {
-  querySelectorAll: () => links,
+  // will skip the imperative part
+  querySelectorAll: [],
 };
+// will disable intervals for tests
+global.setInterval = () => {};
 
 // Run!
 require('../app/scripts/index.js');
-const results = links.map(l => l.href);
+const results = variants.map(v => global.getUrlWithoutHighlights(v));
 
 const expected = [
   /* Test 0  | undefined                                   */ undefined,
