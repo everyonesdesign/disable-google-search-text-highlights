@@ -34,6 +34,12 @@
     return newHref;
   }
 
+  /**
+   * The links are completely replaced instead of just modifying URLs
+   *
+   * This is done in order to get rid of the original JS handlers
+   * bound to the links
+   */
   function recreateLink(link, newHref) {
     const EXCLUDED_ATTRIBUTES = ['ping'];
     const newLink = document.createElement('a');
