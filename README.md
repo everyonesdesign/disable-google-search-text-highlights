@@ -22,7 +22,7 @@ of the original standard proposal).
 This manual is for Google Chrome
 
 - Clone the repository or download as .zip file (if latter then extract the contents)
-- To to Extensions page
+- To to Google Chrome's Extensions page
 - You'll have to enable Developer Mode (switch in the top corner)
 - Click on "Load unpacked" button
 - Choose "app" folder inside of the downloaded source
