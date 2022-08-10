@@ -17,6 +17,18 @@ of the original standard proposal).
 
 ![Screenshots of Disable Text Highlights from Google Search Results extension](./screenshot.png)
 
+### How to install it from source?
+
+This manual is for Google Chrome
+
+- Clone the repository or download as .zip file (if latter then extract the contents)
+- To to Extensions page
+- You'll have to enable Developer Mode (switch in the top corner)
+- Click on "Load unpacked" button
+- Choose "app" folder inside of the downloaded source
+
+That's it, you're set!
+
 ### How can I disable this functionality?
 
 In perfect case it would be possible to control "Scroll to Text Fragment"
