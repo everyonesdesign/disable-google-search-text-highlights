@@ -6,7 +6,8 @@ fetch('https://www.google.com/supported_domains')
       const domains = body
         .trim()
         .split(/\s/)
-        .map(domain => `https://www${domain}/search?`)
-        .join('\n');
+        .sort()
+        .map(domain => `        "https://www${domain}/search?*"`)
+        .join(',\n');
       console.log(domains);
     });

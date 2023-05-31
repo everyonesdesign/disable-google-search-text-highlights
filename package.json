@@ -7,6 +7,7 @@
   "scripts": {
     "pack": "rm app.zip; cd app && zip -r ../app.zip *",
     "release": "node ./release.js",
+    "get-domains": "node ./get-google-domains.js",
     "test": "node ./test"
   },
   "devDependencies": {
